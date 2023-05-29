@@ -1,121 +1,41 @@
 <h1 align="center">
-Hollywood Records
+  Zombie Runner
 </h1>
 <p align="center">
-ReactJS, NodeJS, ExpressJS, MongoDB 
+  Unity, C#, 3D graphics
 </p>
 
-<img src="https://github.com/georgesimos/readme-assets/blob/master/cinema-plus/mern.png" />
+<p align="center">
+  <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2FUnity%20logo.png?alt=media&token=4edecdea-1d14-436a-a16e-e528265dcf6c" />
+</p>
 
 # Tech stack
-Hollywood Records uses a number of open source projects to work properly:
-* [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces.
-* [NodeJS](https://nodejs.org/) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
-* [ExpressJS](https://expressjs.com/) - fast node.js network app framework.
-* [MongoDB](https://www.mongodb.com/) - A document-oriented, No-SQL database used to store the application data.
+Zombie Runner uses a number of open source projects to work properly:
+* [Unity](https://unity.com) - is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Worldwide Developers Conference as a Mac OS X game engine.
+* [C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/) - is a modern, object-oriented, and type-safe programming language and enables developers to build many types of secure and robust applications that run in .NET.
 
 # Installation
-Hollywood Records application requires [Node.js](https://nodejs.org/)  to run.
-
-### Set environment variables 
-```sh
-$ Create a .env file in your api folder, frontend-user folder and frontend-admin folder
-create a mongodb database and add your connection string into .env file
-create a firebase connection and add your connection string into .env file
-```
+To run a program in Unity, you need the following elements installed on your computer:
+- Unity Hub - is a launcher that facilitates the management and installation of different versions of Unity. You can download Unity Hub for free from the official Unity website and use it to install and manage the Unity versions you need.
+- Unity Version - After installing Unity Hub, you need to select and install a specific version of the Unity engine. Unity offers multiple versions, each with different features and updates. Make sure you select and install the appropriate version for your project. The current application was created using Unity Version 2020.2.7f1.
 
 ### Clone the repositories
 ```sh
-$ git clone https://github.com/catalyn98/hollywood-records.git
+$ git clone https://github.com/catalyn98/ZombieRunner-game.git
 ```
 
-### Install the dependencies and devDependencies:
-Start the server:
-```sh
-$ cd backend api
-$ npm install 
-$ npm start 
-```
-Start the frontend user:
-```sh
-$ cd frontend-user
-$ npm install 
-$ npm start 
-```
-Start the frontend admin:
-```sh
-$ cd frontend-admin
-$ npm install 
-$ npm start 
-```
+# Class diagram 
+<p align="center">
+  <img src="https://github.com/catalyn98/ZombieRunner-game/blob/main/Class%20diagram.png" />
+</p>
 
-# Web application screenshoots%20app 
-
-1.Home page
-<img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/User/1.Home.png" />
-
-<details>
-  <summary>More screenshoots%20app</summary>
-  2.Movies page
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/User/2.All%20products%20by%20category.png" />
-
-  3.Blog page
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/User/3.All%20products.png" />
-
-  4.Team page
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/User/4.Product%20details.png" />
-
-  5.Contact us page
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/User/5.Cart.png" />
-
-  6.View profile
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/User/6.My%20orders.png" />
-
-  7.Settings account
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/User/7.Login.png" />
-
-  8.Seen movies by user
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/User/8.Register.png" />
-
-  9.Movies details page
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/User/9.Reset%20password.png" />
-
-  10.Terms of use
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/User/10.Email%20reset%20password.png" />
-
-# Admin panel screenshoots%20app
-
-1.Dashboard
-<img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/1.Dashboard.png" />
-
-<details>
-  <summary>More screenshoots%20app</summary>
-  2.Users list
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/2.Users%20list.png" />
-
-  3.Movies list
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/3.Movies%20list.png" />
-
-  4.Categories movies
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/3.Orders%20list.png" />
-
-  5.Posts list
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/4.Products%20list.png" />
-
-  6.Account settings
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/5.Add%20product.png" />
-
-  7.Add movie 
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/6.Update%20product.png" />
-
-  8.Update movie
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/7.Categories%20products list.png" />
-  
-  9.Add category movies list
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/8.Add%20category%20product.png" />
-
-  10.Update category movies list
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/9.Update%20category%20product.png" />
-
-  11.Add post 
-  <img src="https://github.com/catalyn98/hollywood-records/blob/master/screenshoots%20app/Admin/10.Login.png" />
+# Screenshots from the game
+| <p align="center">**Start screen**</p> | <p align="center">**Controls screen**</p> | <p align="center">**Pickups screen**</p> |
+| ------------ | ------------ | ------------ |
+| <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F1.Start%20screen.png?alt=media&token=4f997de4-269a-45c2-acd3-ff4a3b76110a" />  |  <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F2.Controls%20screen.png?alt=media&token=95cc3ec2-b42f-4f1f-88c8-06a5bffb93f3" /> | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F3.Pickups%20screen.png?alt=media&token=7bc1d52c-82d5-4112-a197-ca301284f090" /> |
+| <p align="center">**Weapons screen**</p> | <p align="center">**Screenshot from game (1)**</p> | <p align="center">**Screenshot from game (2)**</p> |
+| <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F4.Weapons%20screen.png?alt=media&token=b7007dcd-bf7a-4ec9-9d96-4da314baaae1" /> | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F5.Screenshot%20from%20game%201.png?alt=media&token=c178a5a6-b7d3-427b-acba-a06fa29f2188" /> | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F6.Screenshot%20from%20game%202.png?alt=media&token=7ecce237-590f-4c68-8faa-e06c61b7cd31" /> |
+| <p align="center">**Screenshot from game (3)**</p> | <p align="center">**Screenshot from game (4)**</p> | <p align="center">**Screenshot from game (5)**</p> |
+| <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F7.Screenshot%20from%20game%203.png?alt=media&token=189c5a61-4f7d-48b6-a014-e9480ebd1c9c" /> | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F8.Screenshot%20from%20game%204.png?alt=media&token=90a9d750-a666-452f-b182-dca9914823c6" /> | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F9.Screenshot%20from%20game%205.png?alt=media&token=f0de7378-80e9-4ac5-b760-353e4021cf08" /> |
+| <p align="center">**Win game screen**</p> | <p align="center">**Win game screen**</p> | |
+| <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F10.Win%20game%20screen.png?alt=media&token=cfa92ee4-9528-4923-9be8-8b3dbcef90e7" /> | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F11.End%20game%20screen.png?alt=media&token=43712741-d677-420a-9538-83c03c9c8b1b" /> | |
