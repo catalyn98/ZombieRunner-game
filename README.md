@@ -39,3 +39,13 @@ $ git clone https://github.com/catalyn98/ZombieRunner-game.git
 | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F7.Screenshot%20from%20game%203.png?alt=media&token=189c5a61-4f7d-48b6-a014-e9480ebd1c9c" /> | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F8.Screenshot%20from%20game%204.png?alt=media&token=90a9d750-a666-452f-b182-dca9914823c6" /> | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F9.Screenshot%20from%20game%205.png?alt=media&token=f0de7378-80e9-4ac5-b760-353e4021cf08" /> |
 | <p align="center">**Win game screen**</p> | <p align="center">**Lose game screen**</p> | |
 | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F10.Win%20game%20screen.png?alt=media&token=cfa92ee4-9528-4923-9be8-8b3dbcef90e7" /> | <img src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/Game%2F11.End%20game%20screen.png?alt=media&token=43712741-d677-420a-9538-83c03c9c8b1b" /> | |
+
+# Credit
+This game was created based on a Unity tutorial from Udemy titled **"Complete C# Unity Game Developer 3D"**. You can find the tutorial [here](https://www.udemy.com/course/unitycourse2/).
+
+### Description
+The tutorial provided a comprehensive guide on developing a game using Unity, covering essential concepts such as game mechanics, player controls, and level design. It served as a valuable resource for learning the fundamentals of game development and provided inspiration for the creation of this game.
+Throughout the tutorial, I gained a good understanding of Unity's features, including scene management, asset integration, and scripting in C#. The step-by-step instructions and hands-on exercises helped me grasp key concepts and apply them in a practical way.
+
+### Acknowledgment
+I would like to express my gratitude to Rick for creating such an informative and engaging tutorial. Their expertise and clear explanations greatly facilitated the development process of this game. I highly recommend checking out the tutorial for anyone interested in learning Unity game development.
